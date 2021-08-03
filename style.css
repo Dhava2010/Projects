@@ -1,23 +1,25 @@
-#app {
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+p
+{
+ margin: 100px;
+}
+
+.headbar
+{
+    background-color: peachpuff;
     width: 100%;
-    height: 800px;
-    background-color: aliceblue;
+    height: auto;
 }
 
-.container
+ul
 {
-    text-align: center;
+    list-style: none;
+    font-variant-caps: small-caps;
 }
-
-#myCarousel, #myCarousel1
-{
-    margin-right: 379px;
-    margin-left : 379px;
-}
-
-body
-{
-    background-color: aqua;
-}
-
 
