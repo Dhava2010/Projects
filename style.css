@@ -5,21 +5,20 @@
   padding: 10px;
 }
 
-p
+#HeadBar
 {
- margin: 100px;
+    background-color: aqua;
 }
 
-.headbar
+#link
 {
-    background-color: peachpuff;
-    width: 100%;
-    height: auto;
+    text-decoration-color: black;
+        list-style: none;
 }
 
-ul
+.links
 {
     list-style: none;
-    font-variant-caps: small-caps;
+    float: right;
 }
 
