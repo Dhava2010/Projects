@@ -22,3 +22,7 @@
     float: right;
 }
 
+#MI:hover
+{
+    transform: scale(0.9);
+}
