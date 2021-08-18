@@ -1,33 +1,66 @@
-.center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid black;
-  padding: 10px;
+body
+{
+    text-align: center;
+}
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
-#HeadBar
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#contact iframe
 {
-    background-color: aqua;
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
 }
 
-#link
+
+#videos iframe
 {
-    text-decoration-color: black;
-        list-style: none;
+    width: 80%;
 }
 
-.links
+
+input
 {
-    list-style: none;
-    float: right;
+    background: grey;
+}
+.my_nav_bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
-#MI:hover
+#section
 {
-    transform: scale(0.9);
-}
-
-#Contact
-{
-    background-color: firebrick;
+    align-content: center;
+    
 }
