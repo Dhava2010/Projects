@@ -1,29 +1,11 @@
-.menu
+canvas
 {
-    list-style: none;
-    float: left;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    margin-top: 50px;
 }
 
-marquee
+#mt
 {
-    background-color: cyan;
-}
-
-#video
-{
-    margin-left: 300px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    align-content: center;
-}
-
-#sec1CL
-{
-    width: 300px;
-    text-align: center;
-}
-
-#IC
-{
-    width: 350px;
+    float: right;
 }
